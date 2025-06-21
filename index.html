@@ -71,11 +71,15 @@
     </div>
   </div>
 
-  <!-- 🎵 เพลง QLER – จีบ -->
-  <iframe 
-    src="https://www.youtube.com/embed/HyTWZ9FwQGE?autoplay=1&loop=1&playlist=HyTWZ9FwQGE&mute=0" 
-    allow="autoplay" 
-    frameborder="0">
+  <button onclick="playMusic()">🎵 กดเพื่อเริ่มเพลงจีบ</button>
+
+    <div class="footer">สร้างด้วยความรัก 💌 โดยคุณ</div>
+  </div>
+
+  <iframe id="music" width="0" height="0"
+    src="https://www.youtube.com/embed/HyTWZ9FwQGE?enablejsapi=1&version=3&playerapiid=ytplayer"
+    frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
   </iframe>
 </body>
 </html>
